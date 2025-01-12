@@ -1,0 +1,21 @@
+@layer components {
+  .card-base {
+    @apply bg-white rounded-2xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#FFE4E1];
+  }
+
+  .gradient-banner {
+    @apply bg-gradient-to-r from-[#FFE162] via-[#FF9A8C] to-[#FF62A5] rounded-2xl shadow-lg w-full border-4 border-[#FFA7D1];
+  }
+
+  .button-primary {
+    @apply px-6 py-3 rounded-full bg-[#FF62A5] text-white hover:bg-[#FF4D94] transition-colors;
+  }
+
+  .button-secondary {
+    @apply px-4 py-2 rounded-full bg-[#FFE4E1] text-[#FF62A5] hover:bg-[#FFD1DC] transition-colors;
+  }
+
+  .input-primary {
+    @apply w-full p-4 border-2 border-[#FFE162] rounded-xl focus:outline-none focus:border-[#FF62A5];
+  }
+}
